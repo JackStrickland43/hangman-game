@@ -1,0 +1,104 @@
+/* Styling for the app */
+.App {
+  text-align: center;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  margin-top: 1%;
+  font-family: cursive;
+}
+
+/* Styling for the button with id helpBtn */
+#helpBtn {
+  color: black;
+  border-width: 1px;
+  border-color: #01B0D3;
+  border-style: ridge;
+  border-radius: 50%;
+  background-color: #01b0d375;
+  width: 35px;
+  height: 35px;
+  margin-top: 7%;
+  margin-left: 5px;
+  text-align: center;
+}
+
+/* Styling for the button with id helpBtn when hovered*/
+#helpBtn:hover {
+  background-color: #FFFFFF;
+}
+
+/* Styling/positioning for the title div */
+.title {
+  display: inline-flex;
+  flex-direction: row;
+  font-family: cursive;
+  padding: 1%;
+  background-color: #01b0d31f;
+  margin-bottom: 10px;
+  border-width: 3px;
+  border-color: #01B0D3;
+  border-style: ridge;
+}
+
+/* Styling for the hangman image component */
+.image {
+  border-width: 3px;
+  border-color: #01B0D3;
+  border-style: ridge;
+  margin-left: 10px;
+}
+
+/* Positioning for the main content div */
+.contents {
+  margin-left: 12vw;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Styling for the main text content */
+.text {
+  border-width: 2px;
+  border-color: #01B0D3;
+  border-style: ridge;
+  background-color: #01b0d31f;
+  padding: 10px;
+}
+
+/* Styling for the main content buttons */
+.contents button {
+  border-width: 2px;
+  border-color: #01B0D3;
+  border-style: ridge;
+  background-color: #01b0d375;
+  margin-left: 10px;
+}
+
+/* Styling for the main content buttons when hovered */
+.contents button:hover {
+  background-color: #FFFFFF;
+}
+
+/* Styling for the form */
+input {
+  border-width: 2px;
+  border-color: #01B0D3;
+  border-style: ridge;
+  background-color: #01b0d375;
+}
+
+/* Styling for the header of the off canvas help menu */
+#helpHeader {
+  background-color: #01b0d375;
+  border-width: 2px;
+  border-color: #01B0D3;
+  border-style: ridge;
+}
+
+/* Styling for the body of the off canvas help menu */
+#helpBody {
+  border-width: 2px;
+  border-color: #01B0D3;
+  border-style: ridge;
+  background-color: #FFFFFF;
+}
